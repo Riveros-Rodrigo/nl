@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba simple</title>
 </head>
-<body>
-<style>
-body {
-	margin: 0;
-	padding: 0;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-table {
-    border-spacing: 0;
-}
-table td {
-    border-collapse: collapse;
-}
-</style>
 
-    <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"
-    style="text-decoration:none !important;">
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        @media screen and (min-width: 650px) {
+            .table-padre {
+                width: 35%;
+                margin: auto;
+            }
+        }
+    </style>
+
+    <table class="table-padre" border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"
+        style="text-decoration:none !important;">
         <tr>
             <td>
                 <tableborder="0" width="650" cellpadding="0" cellspacing="0" class="container"
-                style="width:650px;max-width:650px;text-decoration:none !important;">
+                    style="width:650px;max-width:650px;text-decoration:none !important;">
                     <tbody>
                         <tr>
                             <td bgcolor="#006FCF" width="4%" height="25"></td>
                             <td bgcolor="#006FCF" height="25">
-                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tr>
-                                <td bgcolor="#006FCF"  width="34%"
-                                    style="color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left;">
-                                    PUBLICIDAD</td>
-                                <td bgcolor="#006FCF" width="66%"
-                                    style="color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: end;">
-                                    ¿Tenés problemas para ver este email? Hacé click aquí
-                                </td>
-                                </tr>
-                              </table>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="#006FCF" width="34%"
+                                            style="color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left;">
+                                            PUBLICIDAD</td>
+                                        <td bgcolor="#006FCF" width="66%"
+                                            style="color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: end;">
+                                            <a style="text-decoration: none; color: #fff;" href="#">¿Tenés problemas
+                                                para ver este email? Hacé click aquí</a>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                             <td bgcolor="#006FCF" width="4%" height="25"></td>
                         </tr>
@@ -55,66 +67,68 @@ table td {
                         <tr class="tercer-tr">
                             <td width="4%" bgcolor="#006FCF"></td>
                             <td width="92%">
-                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                <tbody>
-                                  <tr>
-                                    <td width="4%"></td>
-                                    <td width="92%"><img
-                                        src="./img/Recurso 7.png"
-                                        class="imgcomun" alt="American Express" /></td>
-                                    <td width="4%"></td>
-                                  </tr>
-                                </tbody>
-                              </table>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                        <tr>
+                                            <td width="4%"></td>
+                                            <td width="92%"><img src="./img/Recurso 7.png" class="imgcomun"
+                                                    alt="American Express" /></td>
+                                            <td width="4%"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </td>
                             <td width="4%" bgcolor="#006FCF"></td>
-                          </tr>
-                          <!-- otro bloque -->
-                          <tr>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
                             <td bgcolor="#006FCF"></td>
                             <td style="border-bottom: 1px solid #d6d7db; padding-top: 10px;">
                             </td>
                             <td bgcolor="#006FCF"></td>
-                          </tr>
-                          <!-- otro bloque -->
-                          <tr>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
                             <td width="4%" bgcolor="#006FCF"></td>
                             <td width="90%" style="padding: 10px;">
                                 Hola, %%FULLNAME%%
                             </td>
                             <td width="4%" bgcolor="#006FCF"></td>
-                          </tr>
-                          <!-- otro bloque -->
-                          <tr>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
                             <td width="4%" height="25" bgcolor="#006FCF"></td>
                             <td width="92%" height="25">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                    <tr class="mis" style="display: flex; justify-content: space-around; align-items: center;">
+                                    <tr class="mis"
+                                        style="display: flex; justify-content: space-around; align-items: center;">
                                         <td>Mis viajes</td>
                                         <td>Mis bienes</td>
-                                        <td style="background-color: #00175B; color: #fff; padding: 10px; border-radius: 2px;">MI CUENTA</td>
+                                        <td
+                                            style="background-color: #00175B; color: #fff; padding: 10px; border-radius: 2px;">
+                                            MI CUENTA</td>
                                     </tr>
                                 </table>
                             </td>
                             <td width="4%" height="25" bgcolor="#006FCF"></td>
-                          </tr>
-                          <!-- otro bloque -->
-                          <tr>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
                             <td bgcolor="#006FCF"></td>
                             <td style="padding-top: 10px;">
                                 <img width="100%" src="./img/Recurso 8.png" alt="">
                             </td>
                             <td bgcolor="#006FCF"></td>
-                          </tr>
-                          <!-- otro bloque -->
-                          <tr>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
                             <td bgcolor="#006FCF"></td>
-                            <td style="background-color: #00175B; color: #fff; padding: 20px;">
+                            <td style="background-color: #00175B; color: #fff; padding: 20px; text-align: start;">
                                 Estés donde estés, hagas lo que hagas, te respaldamos.
                             </td>
                             <td bgcolor="#006FCF"></td>
-                          </tr>
-                          <!-- otro bloque -->
+                        </tr>
+                        <!-- otro bloque -->
                         <tr>
                             <td bgcolor="#006FCF"></td>
                             <td style="padding: 10px; color: #00175A; background-color: #EAEDEE;">
@@ -126,7 +140,10 @@ table td {
                         <tr>
                             <td bgcolor="#006FCF"></td>
                             <td style="padding: 10px; color: #00175A; background-color: #EAEDEE;">
-                                Al contratar un seguro o un servicio de asistencia al viajero a través de American Express, no sólo estás eligiendo la protección de prestigiosas compañías seleccionadas por nosotros. También contás con la tranquilidad de obtener atención personalizada en nuestra unidad de servicio de atención especializada en seguros.
+                                Al contratar un seguro o un servicio de asistencia al viajero a través de American
+                                Express, no sólo estás eligiendo la protección de prestigiosas compañías seleccionadas
+                                por nosotros. También contás con la tranquilidad de obtener atención personalizada en
+                                nuestra unidad de servicio de atención especializada en seguros.
                             </td>
                             <td bgcolor="#006FCF"></td>
                         </tr>
@@ -134,7 +151,9 @@ table td {
                         <tr>
                             <td bgcolor="#006FCF"></td>
                             <td style="padding: 10px; color: #00175A;">
-                                Estamos a tu disposición para atender de manera exclusiva cualquier consulta o inquietud sobre los seguros y servicios de asistencia en viajes que tengas o desees contratar a través de American Express. 
+                                Estamos a tu disposición para atender de manera exclusiva cualquier consulta o inquietud
+                                sobre los seguros y servicios de asistencia en viajes que tengas o desees contratar a
+                                través de American Express.
                             </td>
                             <td bgcolor="#006FCF"></td>
                         </tr>
@@ -142,34 +161,134 @@ table td {
                         <tr>
                             <td bgcolor="#006FCF"></td>
                             <td style="padding: 10px; color: #00175A;">
-                                Te invitamos a comunicarte al <strong>0810-888-SEGU (7348)</strong>, de lunes a viernes de <strong>9 a 20 horas</strong> para responder tus consultas y para adquirir las siguientes coberturas exclusivas:
+                                Te invitamos a comunicarte al <strong>0810-888-SEGU (7348)</strong>, de lunes a viernes
+                                de <strong>9 a 20 horas</strong> para responder tus consultas y para adquirir las
+                                siguientes coberturas exclusivas:
                             </td>
                             <td bgcolor="#006FCF"></td>
                         </tr>
                         <!-- otro bloque -->
-                        <!-- aca tiene que ir los emojis de aviones y todo eso, pero todavia no puedo agregarlo -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="display: flex; justify-content: space-around;">
+                                <img src="./img/icoos.png" alt="">
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+
                         <!-- otro bloque -->
                         <tr>
                             <td bgcolor="#006FCF" width="4%"></td>
-                            <td style="background-color: #00175B; color: #fff; padding: 20px;">
-                                Comunicate al 0810-888-SEGU (7348)
-                                de lunes a viernes de 9 a 20 horas.
+                            <td style="background-color: #00175B; color: #fff; padding: 20px; text-align: center;">
+                                Comunicate al <strong>0810-888-SEGU (7348)</strong>
+                                de lunes a viernes de <strong>9 a 20 horas.</strong>
                             </td>
                             <td bgcolor="#006FCF" width="4%"></td>
                         </tr>
                         <!-- otro bloque -->
                         <tr>
-                            <td></td>
+                            <td bgcolor="#006FCF"></td>
                             <td style="display: flex; justify-content: center; padding: 1rem;">
                                 <img src="./img/face.png" alt="">
                             </td>
-                            <td></td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td
+                                style="display: flex; justify-content: center; padding: 1rem; border-top: 1px solid #d6d7db;">
+                                <img src="./img/Recurso 9.png" alt="">
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="display: flex; justify-content: space-around;">
+                                <p>Privacidad</p>
+                                <p>Contacto</p>
+                                <p>Actualizar contacto</p>
+                                <p>Desuscribirse</p>
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="padding: 20px 10px 0px 10px; font-size: 10px;">
+                                AMERICAN EXPRESS OFRECE LOS PRODUCTOS EMITIDOS POR LAS COMPAÑÍAS ASEGURADORAS ALIADAS
+                                (DISPONIBLES EN <a href="#">WWW.AMERICANEXPRESS.COM.AR/SEGUROSYSERVICIOS</a>) EN SU
+                                CARÁCTER DE AGENTE INSTITORIO, INSCRIPTO EN LA SUPERINTENDENCIA DE SEGUROS DE LA NACIÓN
+                                (SSN) BAJO N° 92. TELÉFONO SSN 0800-666-8400, <a href="#">WWW.ARGENTINA.GOB.AR/SSN</a>.
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="padding: 20px 10px 0px 10px; font-size: 10px;">
+                                LOS DATOS PERSONALES SON ALMACENADOS EN UNA BASE DE DATOS, CUYO RESPONSABLE ES AMERICAN
+                                EXPRESS ARGENTINA S.A. CON DOMICILIO LEGAL EN ARENALES 707, ENTREPISO, CP C1061AAA,
+                                C.A.B.A. USTED PODRÁ -EN CUALQUIER MOMENTO- SOLICITAR EL RETIRO O BLOQUEO DE SU NOMBRE,
+                                TOTAL O PARCIAL, DE NUESTRA BASE DE DATOS Y PODRÁ SOLICITAR INFORMACIÓN ACERCA DEL
+                                NOMBRE DEL RESPONSABLE O USUARIO DE LA BASE DE DATOS QUE PROVEYÓ SU INFORMACIÓN. LEY
+                                25.326 ART.27. - INC. 3. “EL TITULAR PODRÁ EN CUALQUIER MOMENTO SOLICITAR EL RETIRO O
+                                BLOQUEO DE SU NOMBRE DE LOS BANCOS DE DATOS A LOS QUE SE REFIERE EL PRESENTE ARTÍCULO”.
+                                DECRETO 1558/01 - ART. 27. - 3ER. PÁRRAFO. “EN TODA COMUNICACIÓN CON FINES DE PUBLICIDAD
+                                QUE SE REALICE POR CORREO, TELÉFONO, CORREO ELECTRÓNICO, INTERNET U OTRO MEDIO A
+                                DISTANCIA A CONOCER, SE DEBERÁ INDICAR, EN FORMA EXPRESA Y DESTACADA, LA POSIBILIDAD DEL
+                                TITULAR DEL DATO DE SOLICITAR EL RETIRO O BLOQUEO, TOTAL O PARCIAL, DE SU NOMBRE DE LA
+                                BASE DE DATOS. A PEDIDO DEL INTERESADO, SE DEBERÁ INFORMAR EL NOMBRE DEL RESPONSABLE O
+                                USUARIO DEL BANCO DE DATOS QUE PROVEYÓ LA INFORMACIÓN”.
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="padding: 20px 10px 0px 10px; font-size: 10px;">
+                                INSTRUCCIONES PARA CANCELAR LA SUSCRIPCIÓN: ESTE CORREO ELECTRÓNICO PUBLICITARIO ESTÁ
+                                DESTINADO A RESIDENTES DE ARGENTINA Y FUE ENVIADO A <*email*>. SI HA SIDO RECIBIDO EN
+                                    UNA DIRECCIÓN DIFERENTE, SIGNIFICA QUE FUE REENVIADO. SI NO DESEA RECIBIR NUEVOS
+                                    MENSAJES PUBLICITARIOS EN EL FUTURO, POR FAVOR RESPONDA ESTE E-MAIL CON LA PALABRA
+                                    “BORRAR” EN EL ASUNTO (SUBJECT), O VISITE LAS <a href="#">PREFERENCIAS DE CORREO
+                                        ELECTRÓNICO</a> EN EL SITIO WEB DE AMERICAN EXPRESS. SERVICIO AL CLIENTE: POR
+                                    FAVOR NO RESPONDA (REPLY) ESTE E-MAIL Y DIRIJA TODAS SUS CONSULTAS A <a
+                                        href="#">SERVICIO AL CLIENTE</a>. DECLARACIÓN SOBRE PRIVACIDAD: PARA SABER CÓMO
+                                    OBTENEMOS, ASEGURAMOS Y UTILIZAMOS SU INFORMACIÓN PERSONAL CUMPLIENDO CON LA LEY
+                                    25.326, VISITE LA DECLARACIÓN SOBRE PRIVACIDAD DE AMERICAN EXPRESS INGRESANDO EN: <a
+                                        href="#">WWW.AMERICANEXPRESS.COM.AR/PRIVACIDAD</a>
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="padding: 10px 20px 0px;">
+                                © 2019 AMERICAN EXPRESS COMPANY.
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <!-- otro bloque -->
+                        <tr>
+                            <td bgcolor="#006FCF"></td>
+                            <td style="padding: 30px 20px 10px;">
+                                <img src="./img/Recurso 10.png" alt="">
+                            </td>
+                            <td bgcolor="#006FCF"></td>
+                        </tr>
+                        <tr>
+                            <td width="4%" height="20" bgcolor="#006FCF"></td>
+                            <td width="92%" height="20" bgcolor="#006FCF"></td>
+                            <td width="4%" height="20" bgcolor="#006FCF"></td>
                         </tr>
                     </tbody>
-                </table>
-            </td>
-        </tr>
+    </table>
+    </td>
+    </tr>
     </table>
 
 </body>
+
 </html>
